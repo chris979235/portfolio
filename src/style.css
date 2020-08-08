@@ -1,0 +1,266 @@
+.container1{
+  margin-top:200px;
+  display: grid;
+grid-auto-rows: minmax(100px, auto);
+}
+.icons{
+  display: grid;
+grid-template-columns: repeat(5, 150px);
+height: 50px;
+text-align: center;
+gap: 10px;
+
+}
+.linkedin{
+  height:auto;
+  width: 50px;
+ 
+}
+.emailed{
+  height:auto;
+  width: 50px;
+  
+}
+.github{
+  height:auto;
+  width: 50px;
+}
+.name1{
+font-family: "futura-pt","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+font-size: 70px;
+grid-row: 1/2;
+grid-column: 1/2;
+}
+.front{
+  grid-row: 2/3;
+  grid-column: 1/2;
+  
+}
+.link1{
+  background-color: transparent;
+  font-size: 20px;
+  border-radius: 20px;
+  border:1px solid black;
+  color:black;
+  text-decoration: none;
+  padding: 5px;
+text-align: center;
+  margin-top:20px;
+}
+.link1:hover{
+  color:white;
+  background-color: black;
+}
+.workprofile{
+  margin-left:40px;
+  margin-top:50px;
+}
+.borderblack{
+  border: 1px solid black;
+}
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid black;
+  color:black;
+  border-radius: 20px;
+}
+
+.dropdown {
+  display: inline-block;
+  margin-left:1200px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.dropdown-contents {
+  display: none;
+  position: absolute;
+  background-color: none;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-contents a {
+  background-color: black;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 20px ;
+  display: block;
+}
+
+.dropdown-contents a:hover {
+  background-color: transparent;
+  color: black;
+
+}
+
+.dropdown:hover .dropdown-contents {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+/*////////////////Profile////////////////*/
+.profile{
+  margin-left:100px;
+  font-size: 25px;
+  width:500px;
+}
+/* ///////////////contact///////////// */
+.messageme{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-right:60px;
+  margin-top:50px;
+}
+.formcontainer{
+  border-radius: 20px;
+}
+.formcontainer1{
+display:grid;
+grid-template-rows: 1fr repeat(5);
+width:400px;
+opacity: .8;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+border-radius: 20px;
+margin-top:100px
+}
+.name{
+height: 50px;
+font-size: 30px;
+}
+.phone{
+  height: 50px;
+  font-size: 30px;
+}
+.email{
+  height: 50px;
+  font-size: 30px;
+}
+.message{
+height:200px;
+font-size: 35px;
+}
+.input{
+width:100px;
+margin-left:150px;
+height:40px;
+border-radius: 20px;
+}
+/*////////////////WORK//////////////*/
+.workdisplay{
+  display:grid;
+  grid-template-rows: 1fr  ;
+  height:100px;
+}
+.epic{
+  grid-row: 0/1;
+}
+.mywork{
+  position: absolute;
+  margin-left:500px;
+  font-size: 50px;
+  text-align: center;
+}
+.image1{
+  width:500px;
+  height:500px;
+  margin-top:50px;
+  margin-right:50px;
+  border-radius: 10px;
+}
+.image2{
+  width:500px;
+  height:500px;
+  margin-top:50px;
+  margin-right:50px;
+  border-radius: 10px;
+}
+.image3{
+  width:500px;
+  height:500px;
+  margin-top:50px;
+  margin-right:50px;
+  border-radius: 10px;
+}
+.image4{
+  width:500px;
+  height:500px;
+  margin-top:50px;
+  margin-right:50px;
+  border-radius: 10px;
+}
+.slidertext{
+  width:500px;
+  text-decoration: none;
+  color:black;
+  text-decoration: none;
+}
+/* ///////////////////////skills//////////////////// */
+.hardskills{
+  text-align: center;
+  font-size: 40px;
+}
+.listed1 > li{
+  display: inline-block;
+  margin: 50px;
+  font-size: 30px;
+}
+.listed2 > li{
+  display: inline-block;
+  margin: 50px;
+  font-size: 30px;
+}
+.softskills{
+  text-align: center;
+  font-size: 30px;
+}
+/*/////////////////////////////////////*/
+body
+{
+  width: 95%; 
+  height:100%;
+  margin:0em 5%;
+  background-color:#8ec1da;
+  background-image: url("http://vollnixx.files.wordpress.com/2013/12/clouds_real.jpg");
+  background-position: center bottom;
+  animation: animatedBackground 30s linear infinite;
+  /* Safari and Chrome: */
+  -webkit-animation: animatedBackground 30s linear infinite;
+}
+@keyframes animatedBackground 
+{
+  from { background-position: 0 100%; }
+  to { background-position: 100% 100%; }
+}
+@-webkit-keyframes  animatedBackground 
+{
+  from { background-position: 0 100%; }
+  to { background-position: 100% 100%; }
+}
+#content
+{
+  position:fixed;
+  top:5em;
+  height:1em;
+  width:19em;
+  background-color:rgba(1,1,1,0.5);
+  color:white;
+  padding:2em;
+  border-bottom-right-radius: 5em;
+  -webkit-border-bottom-right-radius: 5em;
+   border-top-left-radius: 5em;
+  -webkit-border-top-left-radius: 5em;
+}
