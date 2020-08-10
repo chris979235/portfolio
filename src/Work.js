@@ -18,11 +18,11 @@ export default function Work() {
       items: 2
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 1000 },
       items: 2
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 1000, min: 0 },
       items: 1
     }
   };

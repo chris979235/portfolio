@@ -18,7 +18,8 @@ export default function Contact() {
 
   return (
     <div>
-
+        <div className="formcontainer" >
+        
      <div class="dropdown">
         <button class="dropbtn">Navigate</button>
         <div class="dropdown-contents">
@@ -29,7 +30,8 @@ export default function Contact() {
           <Link to={'./Contact'} className='borderblack'>Contact</Link>
         </div>
       </div>
-       <div className="formcontainer" >
+
+      <div className='messageme'>Message Me</div>
           <form className="formcontainer1" onSubmit={sendEmail}>
             <input type="text" name="user_name" placeholder='Name' className='name'/>
             <input type="phone" name="contact_number" placeholder='Phone' className='phone'/>
@@ -38,7 +40,7 @@ export default function Contact() {
             <input type="submit" value="Send" className='input'/>
           </form>
         </div>
-        <span className='messageme'>Message Me</span>
+     
     </div>
   )
 }
