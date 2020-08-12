@@ -21,12 +21,11 @@ export default function Contact() {
         <div className="formcontainer" >
         
      <div class="dropdown">
-        <button class="dropbtn">Navigate</button>
+        <button class="dropbtn">Menu</button>
         <div class="dropdown-contents">
           <Link to={'./'} className='borderblack'>Home</Link>
           <Link to={'./Work'} className='borderblack'>Work</Link>
           <Link to={'./Profile'} className='borderblack'>Profile</Link>
-          <Link to={'./Skills'} className='borderblack'>Skills</Link>
           <Link to={'./Contact'} className='borderblack'>Contact</Link>
         </div>
       </div>

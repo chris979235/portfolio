@@ -3,7 +3,6 @@ import {Switch, Route} from "react-router-dom"
 import Home from "./Home"
 import Profile from './Profile'
 import Work from './Work'
-import Skills from './Skills'
 import Contact from './Contact'
 
 export default function App() {
@@ -21,10 +20,6 @@ export default function App() {
 
         <Route path='/Work'>
           <Work/>
-        </Route>
-
-        <Route path='/Skills'>
-          <Skills/>
         </Route>
 
         <Route path='/Contact'>

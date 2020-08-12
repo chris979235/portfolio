@@ -8,18 +8,19 @@ export default function home() {
   return (
    <>
           <div className="dropdown">
-            <button className="dropbtn">Navigate</button>
+            <button className="dropbtn">Menu</button>
             <div className="dropdown-contents">
               <Link to={'./'} className='borderblack'>Home</Link>
               <Link to={'./Work'} className='borderblack'>Work</Link>
               <Link to={'./Profile'} className='borderblack'>Profile</Link>
-              <Link to={'./Skills'} className='borderblack'>Skills</Link>
               <Link to={'./Contact'} className='borderblack'>Contact</Link>
             </div>
           </div>
 
         <div className='container1'>
           <h1 className="name1">Christopher Rees </h1>
+          <Link to={'./Work'} className='link1'>CHECK OUT MY PROJECTS</Link>
+          <Link to={'./Profile'} className='link1'>VIEW MY PROFILE</Link>
           <h1 className='front'>Front End Web Developer </h1>
             <div className="icons">
               <a target="blank" href="https://linkedin.com/in/christopher-rees-599055126">
@@ -32,8 +33,6 @@ export default function home() {
               <a target="blank" href="https://github.com/chris979235/goingoveragain">
               <img src={github} className="github" alt="github"></img>
               </a>
-                  <Link to={'./Work'} className='link1'>Explore Work</Link>
-                  <Link to={'./Profile'} className='link1'>View Profile</Link>
             </div>
         </div>
               

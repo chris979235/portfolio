@@ -5,6 +5,7 @@ import 'react-multi-carousel/lib/styles.css';
 import computer from './images/computer.jpeg'
 import pokemon from './images/pokemon.png'
 import meade from './images/meade.png'
+import topical from'./images/topical.png'
 export default function Work() {
            
   const responsive = {
@@ -33,26 +34,34 @@ export default function Work() {
     <div>
       <h1 className='mywork'>My Work</h1>
       <div className="dropdown">
-        <button className="dropbtn">Navigate</button>
+        <button className="dropbtn">Menu</button>
           <div className="dropdown-contents">
             <Link to={'./'} className='borderblack'>Home</Link>
             <Link to={'./Work'} className='borderblack'>Work</Link>
             <Link to={'./Profile'} className='borderblack'>Profile</Link>
-            <Link to={'./Skills'} className='borderblack'>Skills</Link>
             <Link to={'./Contact'} className='borderblack'>Contact</Link>
           </div>
       </div>
     <Carousel responsive={responsive}>
-    <a target="blank" href="https://github.com/chris979235/vschool">
+    <a target="blank" href="http://topical-roulette-app.herokuapp.com/" className='anchor'>
+      <img src={topical} className="github" alt="github" className='image3'></img>
+      <p className='slidertext'>A frontend and backend website created in an imitation of twitter
+      <br></br>
+      Group Project made in colaberation with Amron Miller, Cameron Rasmussen and Kela Bernesser
+      <br></br>
+      Utilizes React JS CSS HTML Morgan Mongoose MongoDB
+      </p>
+    </a>
+    <a target="blank" href="http://pokemonbattle.surge.sh/" className='anchor'>
       <img src={pokemon} className="github" alt="github" className='image1'></img>
       <p className='slidertext'>A front end app where you choose a pokemon and battle against others, 
-      weakening enemy pokemon enables thier capture and adds them to your list of pokemon to use.
+      weakening enemy pokemon enables you able to capture them and add to your list of pokemon to use.
       <br></br>
       <br></br>
       Utilizes React JS CSS HTML
       </p>
     </a>
-    <a target="blank" href="https://github.com/chris979235/vschool">
+    <a target="blank" href="https://github.com/chris979235/MeadePlumbing" className='anchor'>
       <img src={meade} className="github" alt="github" className='image2'></img>
       <p className='slidertext'>Having any plumbing issues? Come check out Meade Plumbling LLC today!
       <br></br>
@@ -63,10 +72,7 @@ export default function Work() {
       Utilizes HTML CSS JS Email.JS
        </p>
     </a>
-    <a target="blank" href="https://github.com/chris979235/vschool">
-      <img src={computer} className="github" alt="github" className='image3'></img>
-    </a>
-    <a target="blank" href="https://github.com/chris979235/vschool">
+    <a target="blank" href="https://github.com/chris979235/vschool" className='anchor'>
       <img src={computer} className="github" alt="github" className='image4'></img>
     </a>
   </Carousel>
