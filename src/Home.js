@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import linked from "./images/linkedin.png"
 import email from "./images/email.png"
 import github from "./images/github.png"
-
+import Resume from './images/Resume5.jpg'
 export default function home() {
   return (
    <>
@@ -22,12 +22,16 @@ export default function home() {
           <Link to={'./Work'} className='link1'>CHECK OUT MY PROJECTS</Link>
           <Link to={'./Profile'} className='link1'>VIEW MY PROFILE</Link>
           <h1 className='front'>Front End Web Developer </h1>
+          <a target='blank' href={Resume}>
+            <div className='link1 resume'>
+             MY RESUME
+            </div>
+              </a>
             <div className="icons">
               <a target="blank" href="https://linkedin.com/in/christopher-rees-599055126">
               <img src={linked} className="linkedin" alt="linkedin"></img>
               </a>
               <a target="blank" href="mailto:crees979gmail.com">
-                
               <img src={email} className="emailed" alt="email"></img>
               </a>
               <a target="blank" href="https://github.com/chris979235/goingoveragain">
