@@ -18,7 +18,6 @@ export default function Contact() {
 
   return (
     <div>
-        <div className="formcontainer" >
         
      <div class="dropdown">
         <button class="dropbtn">Menu</button>
@@ -38,7 +37,6 @@ export default function Contact() {
             <textarea name="message" placeholder='Message'className='message'/>
             <input type="submit" value="Send" className='input'/>
           </form>
-        </div>
      
     </div>
   )

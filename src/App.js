@@ -13,21 +13,20 @@ export default function App() {
         <Route exact path='/'>
             <Home/>
         </Route>
-
         <Route path='/Profile'>
           <Profile/>
         </Route>
-
         <Route path='/Work'>
           <Work/>
         </Route>
-
         <Route path='/Contact'>
           <Contact/>
         </Route>
-        
       </Switch>
 
+      <Profile/>
+      <Work/>
+      <Contact/>
     </div>
   )
 }

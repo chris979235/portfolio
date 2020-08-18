@@ -177,8 +177,8 @@ display:grid;
 grid-template-rows: 1fr repeat(5);
 width:400px;
 opacity: .8;
-position: absolute;
-top: 50%;
+position: relative;
+top: 60%;
 left: 50%;
 margin-right: -50%;
 transform: translate(-50%, -50%);
@@ -268,17 +268,17 @@ border-radius: 20px;
 }
 
 /*/////////////////////////////////////*/
-body
-{
+/* body */
+/* {
   width: 95%; 
   height:100%;
   margin:0em 5%;
   background-color:#8ec1da;
   background-image: url("http://vollnixx.files.wordpress.com/2013/12/clouds_real.jpg");
   background-position: center bottom;
-  animation: animatedBackground 30s linear infinite;
+  animation: animatedBackground 30s linear infinite; */
   /* Safari and Chrome: */
-  -webkit-animation: animatedBackground 30s linear infinite;
+  /* -webkit-animation: animatedBackground 30s linear infinite;
 }
 @keyframes animatedBackground 
 {
@@ -289,7 +289,7 @@ body
 {
   from { background-position: 0 100%; }
   to { background-position: 100% 100%; }
-}
+} */
 #content
 {
   position:fixed;
@@ -562,17 +562,17 @@ body
         font-size: 30px;
       }
       /*/////////////////////////////////////*/
-      body
-      {
+      /* body */
+      /* {
         width: 95%; 
         height:100%;
         margin:0em 5%;
         background-color:#8ec1da;
         background-image: url("http://vollnixx.files.wordpress.com/2013/12/clouds_real.jpg");
         background-position: center bottom;
-        animation: animatedBackground 30s linear infinite;
+        animation: animatedBackground 30s linear infinite; */
         /* Safari and Chrome: */
-        -webkit-animation: animatedBackground 30s linear infinite;
+        /* -webkit-animation: animatedBackground 30s linear infinite;
       }
       @keyframes animatedBackground 
       {
@@ -583,7 +583,7 @@ body
       {
         from { background-position: 0 100%; }
         to { background-position: 100% 100%; }
-      }
+      } */
       #content
       {
         position:fixed;
