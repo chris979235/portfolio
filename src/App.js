@@ -24,9 +24,9 @@ export default function App() {
         </Route>
       </Switch>
 
-      <Profile/>
-      <Work/>
-      <Contact/>
+      {/* <Work/> */}
+      {/* <Profile/>
+      <Contact/> */}
     </div>
   )
 }
