@@ -43,8 +43,13 @@ export default function Work() {
           </div>
       </div>
     <Carousel responsive={responsive}>
-    <a target="blank" href="http://topical-roulette-app.herokuapp.com/" className='anchor'>
-      <img src={topical} className="github" alt="github" className='image3'></img>
+    {/* <a target="blank" href="http://topical-roulette-app.herokuapp.com/" className='anchor'> */}
+      {/* <img src={topical} className="github" alt="github" className='image3'></img> */}
+      <div>
+      <iframe
+        className='image3'
+        src='http://topical-roulette-app.herokuapp.com/'>
+      </iframe>
       <a target='blank' href='https://github.com/cameronrasmo/topical-twitter-repo' className='slidertext'>
       <p className='slidertext'>A frontend and backend website created in an imitation of twitter
       <br></br>
@@ -53,10 +58,19 @@ export default function Work() {
       Utilizes React JS CSS HTML Morgan Mongoose MongoDB
       </p>
       </a>
-    </a>
-    <a target="blank" href="http://pokemonbattle.surge.sh/" className='anchor'>
-      <img src={pokemon} className="github" alt="github" className='image1'></img>
-      <a target='blank' href='https://github.com/chris979235/goingoveragain/tree/master/module4/capturePokemon/my-app/src' className='slidertext'>
+        </div>
+    {/* </a> */}
+
+    {/* <a target="blank" href="http://pokemonbattle.surge.sh/" className='anchor'> */}
+      {/* <img src={pokemon} className="github" alt="github" className='image1'></img> */}
+      <div>
+
+      <iframe
+      className='image1'
+      src='http://pokemonbattle.surge.sh/'
+      >
+      </iframe>
+      <a target='blank' href='https://github.com/chris979235/goingoveragain/tree/master/module4/capturePokemon' className='slidertext'>
       <p className='slidertext'>A front end app where you choose a pokemon and battle against others, 
       weakening enemy pokemon enables you able to capture them and add to your list of pokemon to use.
       <br></br>
@@ -64,7 +78,8 @@ export default function Work() {
       Utilizes React JS CSS HTML
       </p>
       </a>
-    </a>
+    {/* </a> */}
+      </div>
     <a target="blank" href="https://github.com/chris979235/MeadePlumbing" className='anchor'>
       <img src={meade} className="github" alt="github" className='image2'></img>
       

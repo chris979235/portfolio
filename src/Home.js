@@ -34,7 +34,7 @@ export default function home() {
               <a target="blank" href="mailto:crees979gmail.com">
               <img src={email} className="emailed" alt="email"></img>
               </a>
-              <a target="blank" href="https://github.com/chris979235/goingoveragain">
+              <a target="blank" href="https://github.com/chris979235">
               <img src={github} className="github" alt="github"></img>
               </a>
             </div>
