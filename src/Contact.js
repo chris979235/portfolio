@@ -29,7 +29,9 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className='messageme'>Message Me</div>
+      <div className='messagediv'>
+        <h1 className='messageme'>Message Me</h1>
+      </div>
           <form className="formcontainer1" onSubmit={sendEmail}>
             <input type="text" name="user_name" placeholder='Name' className='name'/>
             <input type="phone" name="contact_number" placeholder='Phone' className='phone'/>

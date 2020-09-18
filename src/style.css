@@ -2,122 +2,151 @@
 }
 
 @media only screen and (min-width: 800px) {
-.container1{
-  display: grid;
-grid-auto-rows: auto;
-grid-template-columns: auto;
-}
-
-.icons{
-  display: grid;
-grid-template-columns:1fr 1fr 1fr;
-height: 50px;
-text-align: center;
-gap: 150px;
-margin:25px;
-}
-.linkedin{
-  height:auto;
-  width: 50px;
-}
-.emailed{
-  height:auto;
-  width: 50px;
+   
+  .text1{
+    text-align: center;
+    font-size: 60px;
+  }
+  .text2{
+    text-align: center;
+    font-size: 40px;
+  }
   
-}
-.github{
-  height:auto;
-  width: 50px;
-}
-.name1{
-font-family: "futura-pt","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-font-size: 70px;
-grid-row: 1/2;
-grid-column: 1/2;
-text-align: center;
-}
-.front{
-  grid-row: 2/3;
-  grid-column: 1/2;
+  .link1{
+    display: block;
+    background-color: rgb(0, 222, 255);
+    font-size: 35px;
+    border-radius: 20px;
+    border:1px solid black;
+    color:black;
+    text-decoration: none;
+    padding: 40px;
   text-align: center;
-}
-.link1{
-  background-color: rgb(0, 222, 255);
-  font-size: 35px;
-  border-radius: 20px;
-  border:1px solid black;
-  color:black;
-  text-decoration: none;
-  padding: 40px;
-text-align: center;
-margin:20px;
-font-weight: bold;
-}
-.link1:hover{
-  color:white;
-  background-color: black;
-}
-.workprofile{
-  margin-left:40px;
-  margin-top:50px;
-}
-.borderblack{
-  border: 1px solid black;
-  text-decoration: none;
-}
-.dropbtn {
-  background-color: rgb(0, 222, 255);
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: 1px solid black;
-  color:black;
-  border-radius: 20px;
-  /* background: rgb(0, 222, 255, .3) */
-}
+  margin:20px;
+  font-weight: bold;
+  text-align: center;
 
-.dropdown {
-  background-color: rgb(0, 222, 255);
-  display: inline-block;
-  margin-left:1100px;
-  border-radius: 20px;
-  margin-top: 100px;
-  width:auto;
-  /* background: rgb(0, 222, 255, .3) */
-}
-
-.dropdown-contents {
-  display: none;
-  position: absolute;
-  background-color: none;
-  min-width: 160px;
-  z-index: 1;
-  /* background: rgb(0, 222, 255, .3) */
-}
-
-.dropdown-contents a {
-  background-color: black;
-  color: white;
-  padding: 12px 16px;
-  border-radius: 20px ;
-  display: block;
-}
-
-.dropdown-contents a:hover {
-  color: black;
-  background-color: rgb(0, 222, 255);
-}
-
-.dropdown:hover .dropdown-contents {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: black;
-  color: white;
-  border: 1px solid black;
-  border-radius: 20px;
-}
+  }
+  .link2{
+    display: block;
+    background-color: rgb(0, 222, 255);
+    font-size: 35px;
+    border-radius: 20px;
+    border:1px solid black;
+    color:black;
+    text-decoration: none;
+    padding: 40px;
+  text-align: center;
+  margin:20px;
+  font-weight: bold;
+  }
+  .link3{
+    display: block;
+    background-color: rgb(0, 222, 255);
+    font-size: 35px;
+    border-radius: 20px;
+    border:1px solid black;
+    color:black;
+    text-decoration: none;
+    padding: 40px;
+  text-align: center;
+  margin:20px;
+  font-weight: bold;
+  }
+  
+  .footer{
+    display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  height: 50px;
+  text-align: center;
+  margin:25px;
+  }
+  .linkedin{
+    height:auto;
+    width: 50px;
+  }
+  .emailed{
+    height:auto;
+    width: 50px;
+    
+  }
+  .github{
+    height:auto;
+    width: 50px;
+  }
+  
+  
+  
+  .link1:hover{
+    color:#ffffff;
+    background-color: black;
+  }
+  .link2:hover{
+    color:#ffffff;
+    background-color: black;
+  }
+  .link3:hover{
+    color:#ffffff;
+    background-color: black;
+  }
+ 
+  .borderblack{
+    border: 1px solid black;
+    text-decoration: none;
+  }
+  .dropbtn {
+    background-color: rgb(0, 222, 255);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid black;
+    color:black;
+    border-radius: 20px;
+    /* background: rgb(0, 222, 255, .3) */
+  }
+  
+  .dropdown {
+    background-color: rgb(0, 222, 255);
+    display: inline-block;
+    margin-left:1100px;
+    border-radius: 20px;
+    margin-top: 100px;
+    width:auto;
+    /* background: rgb(0, 222, 255, .3) */
+  }
+  
+  .dropdown-contents {
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    z-index: 1;
+    /* background: rgb(0, 222, 255, .3) */
+  }
+  
+  .dropdown-contents a {
+    background-color: black;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 20px ;
+    display: block;
+  }
+  
+  .dropdown-contents a:hover {
+    color: black;
+    background-color: rgb(0, 222, 255);
+  }
+  
+  .dropdown:hover .dropdown-contents {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
 /*////////////////Profile////////////////*/
 .gridin2{
   display: grid;
@@ -158,10 +187,9 @@ font-weight: bold;
 }
 /* ///////////////contact///////////// */
 .messageme{
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   font-size: 50px;
-  margin-right:60px;
   margin-top:50px;
 }
 .formcontainer{
@@ -328,57 +356,74 @@ border-radius: 20px;
 /* ///////////////////////////////phones////////////////////////// */
 /* display block if grids setup*/
 }
-  @media only screen and (max-width: 800px) {
-      .container1{
-        margin-top:200px;
-        display: grid;
-      grid-auto-rows: minmax(100px, auto);
+
+  @media only screen and (max-width: 800px) { 
+    
+    
+    .text1{
       text-align: center;
-      }
-      .icons{
-        display: grid;
-      grid-template-columns: repeat(3, 150px);
-      height: 50px;
+      font-size: 40px;
+    }
+    .text2{
       text-align: center;
-      gap: 10px;
-      }
-      .linkedin{
-        height:auto;
-        width: 50px;
-      }
-      .emailed{
-        height:auto;
-        width: 50px;
-        
-      }
-      .github{
-        height:auto;
-        width: 50px;
-      }
-      .name1{
-      font-family: "futura-pt","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-      font-size: 70px;
-      grid-row: 1/2;
-      grid-column: 1/2;
-      }
-      .front{
-        grid-row: 2/3;
-        grid-column: 1/2;
-        
-      }
-      .link1{
-        background-color: transparent;
-        font-size: 20px;
-        border-radius: 20px;
-        border:1px solid black;
-        color:black;
-        text-decoration: none;
-        padding: 5px;
-        margin-top:30px;
-        background: rgb(0, 222, 255, .3);
-        font-weight: bold;
-        height:50px;
-      }
+      font-size: 20px;
+    }
+    .links{
+      margin-top:15%;
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 15%;
+      justify-content: center;
+      
+    }
+    .link1{
+      grid-column: 1/4;
+      text-align: center;
+      background-color: #8ec1da;
+      border-radius: 10px;
+      border:1px solid black;
+      color:black;
+      text-decoration: none;
+      height:2em;
+    }
+    .link2{
+      grid-column: 1/4;
+      text-align: center;
+      background-color: #8ec1da;
+      border-radius: 10px;
+      border:1px solid black;
+      color:black;
+      text-decoration: none;
+      height:2em;
+    }
+    .link3{
+      grid-column: 1/4;
+      text-align: center;
+      background-color: #8ec1da;
+      border-radius: 10px;
+      border:1px solid black;
+      color:black;
+      text-decoration: none;
+      height:2em;
+    }
+    
+     
+     .footer{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      text-align: center;
+      margin-top: 20%;
+    }
+     .linkedin{
+       width:40%;
+       height:auto;
+     }
+     .emailed{
+      text-align: center;
+     }
+
+
     
       .link1:hover{
         color:white;
@@ -392,31 +437,31 @@ border-radius: 20px;
         border: 1px solid black;
       }
       .dropbtn {
-        background-color: transparent;
+        
         color: white;
         padding: 16px;
         font-size: 16px;
         border: 1px solid black;
         color:black;
         border-radius: 20px;
-        background: rgb(0, 222, 255, .3)
+        background: rgb(0, 222, 255, .3);
       }
       /*  */
       .dropdown {
         display: inline-block;
-        margin-left:50px;
+        margin-left:25px;
         border-radius: 20px;
-        margin-top: 100px;
-        background: rgb(0, 222, 255, .3)
+        margin-top: 50px;
+        background: rgb(0, 222, 255, .3);
+        margin-bottom:50px;
       }
       
       .dropdown-contents {
+        background-color: transparent;
         display: none;
         position: absolute;
-        background-color: none;
         min-width: 160px;
         z-index: 1;
-        background: rgb(0, 222, 255, .3)
       }
       
       .dropdown-contents a {
@@ -449,9 +494,11 @@ border-radius: 20px;
         width:500px;
       }
       /* ///////////////contact///////////// */
-     
+     .messagediv{
+       display:inline;
+     }
       .messageme{
-        position: relative;
+        text-align: center;
         font-size: 50px;
       }
       .formcontainer{
@@ -459,38 +506,42 @@ border-radius: 20px;
       }
       .formcontainer1{
       display:grid;
-      grid-template-rows: 1fr repeat(5);
-      width:400px;
-      opacity: .8;
-      position: absolute;
+      position: relative;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
       top: 50%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
-      border-radius: 20px;
-      margin-top:100px
+      margin-top:40%;
+      width:90%;
       }
       .name{
-      height: 50px;
-      font-size: 30px;
+        grid-row:1/2;
+        grid-column: 1/4;
+        height:6vh;
       }
       .phone{
-        height: 50px;
-        font-size: 30px;
+        grid-row:2/3;
+        grid-column: 1/4;
+        height:6vh;
       }
       .email{
-        height: 50px;
-        font-size: 30px;
+        grid-row:3/4;
+        grid-column: 1/4;
+        height:6vh;
       }
       .message{
-      height:200px;
-      font-size: 35px;
+        grid-row:5/6;
+        grid-column: 1/4;
+        height:12vh;
       }
       .input{
-      width:100px;
-      margin-left:150px;
-      height:40px;
-      border-radius: 20px;
+        grid-row:6/7;
+        grid-column: 2/3;
+        height:6vh;
+        background-color: firebrick;
+        border-radius: 10px;
       }
       /*////////////////WORK//////////////*/
       .workdisplay{
@@ -503,9 +554,8 @@ border-radius: 20px;
       }
       .mywork{
         position: absolute;
-        margin-left:100px;
+        margin-left:35%;
         font-size: 50px;
-        text-align: center;
       }
       .image1{
         width:400px;
@@ -513,6 +563,7 @@ border-radius: 20px;
         margin-top:50px;
         margin-right:50px;
         border-radius: 10px;
+        background-color: lightblue;
       }
       .image2{
         width:400px;
@@ -536,7 +587,7 @@ border-radius: 20px;
         border-radius: 10px;
       }
       .slidertext{
-        width:380px;
+        width:350px;
         text-decoration: none;
         color:black;
         text-align: center;
@@ -570,7 +621,6 @@ border-radius: 20px;
        {
         width: 95%; 
         height:100%;
-        margin:0em 5%;
         background-color:#8ec1da;
         background-image: url("http://vollnixx.files.wordpress.com/2013/12/clouds_real.jpg");
         background-position: center bottom;
@@ -604,11 +654,4 @@ border-radius: 20px;
       }
   }
 
-  @media only screen and (max-height: 568px){
-    .messageme{
-      position: relative;
-      font-size: 50px;
-      margin-right:60px;
-      margin-bottom: 150px;
-    }
-  }
+ 

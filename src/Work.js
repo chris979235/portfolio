@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import computer from './images/computer.jpeg'
-import pokemon from './images/pokemon.png'
+// import pokemon from './images/pokemon.png'
 import meade from './images/meade.png'
-import topical from'./images/topical.png'
+// import topical from'./images/topical.png'
 export default function Work() {
            
   const responsive = {
@@ -45,6 +45,7 @@ export default function Work() {
     <Carousel responsive={responsive}>
     {/* <a target="blank" href="http://topical-roulette-app.herokuapp.com/" className='anchor'> */}
       {/* <img src={topical} className="github" alt="github" className='image3'></img> */}
+        {/* </a> */}
       <div>
       <iframe
         className='image3'
@@ -59,7 +60,6 @@ export default function Work() {
       </p>
       </a>
         </div>
-    {/* </a> */}
 
     {/* <a target="blank" href="http://pokemonbattle.surge.sh/" className='anchor'> */}
       {/* <img src={pokemon} className="github" alt="github" className='image1'></img> */}
